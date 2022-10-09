@@ -6,10 +6,10 @@ Add a study introduction
 
 # 📝Study Curriculum
 Write a study curriculum.
-- c language basic code test
-- if, for
-- operator, function
-- pointer
+- 1 week : c language basic code test
+- 2 week : if, for
+- 3 week : operator, function
+- 4 week : pointer
 
 # 📅Week's Homework
 Organize this week's homework
