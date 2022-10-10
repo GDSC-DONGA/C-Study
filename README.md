@@ -24,4 +24,4 @@ Share study reference
 - 열혈 c 프로그래밍
 - etc
 
-** 질문은 언제나 
+** 질문은 언제나 환영
