@@ -145,3 +145,48 @@ int main(void) {
 ‘’’
 
 이렇게 출력됨
+
+### 조건문
+
+- 삼항 연산자
+    - 조건식 ? 참일 때 : 거짓일 때
+
+### switch문
+
+case에 break; 있으면 그 case만 실행
+
+case에 break; 없으면 그 case부터 이후 case 쭉 실행
+
+### goto
+
+rabbit : 위치를 표시
+
+goto rabbit : rabbit으로 무조건 이동
+
+```c
+goto ONE;
+
+ONE:
+    printf("1");
+    goto END;
+END:
+    return 0;
+```
+switch문과 비슷하게 생김
+
+### 함수선언
+```c
+int Increment(int n); //함수 선언
+
+int main(void) {
+    int num=2;
+    num = Increment(num);
+    return 0;
+}
+
+int Increment(int n) {  // 함수
+    n++;
+    return n; 
+}
+```
+함수가 불려진 것 보다 뒤에 있으므로 실행이 안됨 그러므로, 이름을 한번 불러주어 함수를 호출 할 수 있도록 해줌
